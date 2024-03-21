@@ -197,21 +197,20 @@ import java.util.Scanner;
 // índice do n-ésimo termo. Ao final, imprima o valor da P.A de n (an).
 
 
-public class list {
-	public static void main(String[] args) {
+// public class list {
+// 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
+// 		Scanner sc = new Scanner(System.in);
 		
-		int weight[] = new int[4];
+// 		int firstTerm = sc.nextInt();
+// 		int razao = sc.nextInt();
+// 		int n = sc.nextInt();
 
-		for (int x = 0; x < 4; x++) {
-			weight[x] = sc.nextInt();
-		}
 
-		double averageWeighted = ( weight[0] * 1 + weight[1] * 2 + weight[2] * 3 + weight[3] * 4 ) / ( 1 + 2 + 3 + 4 );
+// 		int an = (firstTerm + (n - 1) * razao);
 
-		System.out.printf("A média ponderada: %.2f", averageWeighted);
+// 		System.out.printf("A%d = %d\n", n, an);
 
-		sc.close();
-	}
-}
+// 		sc.close();
+// 	}
+// }
