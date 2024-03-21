@@ -214,3 +214,25 @@ import java.util.Scanner;
 // 		sc.close();
 // 	}
 // }
+
+// 13
+
+// Numa certa loja de eletrodomésticos, o comerciário encarregado da seção de televisores
+// recebe, mensalmente, um salário fixo (que representa 2*salarioMinimo) mais a
+// comissão. Essa comissão é calculada em relação ao número de televisores vendidos por
+// mês de cada um dos tipos de TV, obedecendo as seguintes especificações:
+
+
+public class list {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		double salaryMin = sc.nextDouble();
+		int TV_LCD = sc.nextInt();
+		int TV_LED = sc.nextInt();
+		int TV_PLASMA = sc.nextInt();
+
+		sc.close();
+	}
+}
