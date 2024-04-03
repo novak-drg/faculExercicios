@@ -223,16 +223,20 @@ import java.util.Scanner;
 // mês de cada um dos tipos de TV, obedecendo as seguintes especificações:
 
 
-public class list {
-	public static void main(String[] args) {
+public class Core {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-		Scanner sc = new Scanner(System.in);
-		
 		double salaryMin = sc.nextDouble();
-		int TV_LCD = sc.nextInt();
-		int TV_LED = sc.nextInt();
-		int TV_PLASMA = sc.nextInt();
+		int TV_LCD = ( sc.nextInt() * 50 );
+		int TV_LED = ( sc.nextInt() * 60 );
+		int TV_PLASMA = ( sc.nextInt() * 75 );
+
+        double salaryTotal = ( 2 * salaryMin ) + ( TV_LCD + TV_LED + TV_PLASMA ) ; 
+
+        System.out.printf("Salario total é: %.2f", salaryTotal);
+
 
 		sc.close();
-	}
+    }
 }
