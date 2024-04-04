@@ -217,26 +217,128 @@ import java.util.Scanner;
 
 // 13
 
-// Numa certa loja de eletrodomésticos, o comerciário encarregado da seção de televisores
-// recebe, mensalmente, um salário fixo (que representa 2*salarioMinimo) mais a
-// comissão. Essa comissão é calculada em relação ao número de televisores vendidos por
-// mês de cada um dos tipos de TV, obedecendo as seguintes especificações:
+// public class Core {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+// 		double salaryMin = sc.nextDouble();
+// 		int TV_LCD = ( sc.nextInt() * 50 );
+// 		int TV_LED = ( sc.nextInt() * 60 );
+// 		int TV_PLASMA = ( sc.nextInt() * 75 );
+
+//         double salaryTotal = ( 2 * salaryMin ) + ( TV_LCD + TV_LED + TV_PLASMA ) ; 
+
+//         System.out.printf("Salario total é: %.2f", salaryTotal);
 
 
-public class Core {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+// 		sc.close();
+//     }
+// }
 
-		double salaryMin = sc.nextDouble();
-		int TV_LCD = ( sc.nextInt() * 50 );
-		int TV_LED = ( sc.nextInt() * 60 );
-		int TV_PLASMA = ( sc.nextInt() * 75 );
+// 14
 
-        double salaryTotal = ( 2 * salaryMin ) + ( TV_LCD + TV_LED + TV_PLASMA ) ; 
+// public class Main
+// {
+// 	public static void main(String[] args) {
+		
+//         Scanner sc = new Scanner(System.in);
 
-        System.out.printf("Salario total é: %.2f", salaryTotal);
+//         int x = sc.nextInt();
+//         int y = sc.nextInt();
+
+//         double formula = (2 * ( Math.sqrt(3 * x + 30) / 3 ) + Math.pow((y - 32), 4));
+
+//         System.out.printf("Formula: %.2f", formula);
+
+// 		sc.close();
+		
+// 	}
+// }
 
 
-		sc.close();
-    }
-}
+// 15
+
+// public class Main
+// {
+// 	public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int X1 = sc.nextInt();
+//         int Y1 = sc.nextInt();
+//         int X2 = sc.nextInt();
+//         int Y2 = sc.nextInt();
+
+//         double calc = Math.sqrt( ( Math.pow((Y2 - Y1), 2) + Math.pow((X2 - X1), 2)) );
+
+//         System.out.printf("Resultado: %.2f", calc);
+
+
+// 		sc.close();
+		
+// 	}
+// }
+
+
+// 16
+
+// public class Main
+// {
+// 	public static void main(String[] args) {
+		
+//         Scanner sc = new Scanner(System.in);
+
+//         int A = sc.nextInt();
+//         int B = sc.nextInt();
+//         int C = sc.nextInt();
+        
+//         double res = (  (Math.pow((A + B), 2) + Math.pow((B + C), 2) ) / 2);
+
+//         System.out.printf("O resultado é: %.2f", res);
+// 		sc.close();
+		
+// 	}
+
+// 17
+
+// import java.util.Scanner;
+
+// public class Main
+// {
+// 	public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int amount = sc.nextInt();
+//         double dolPrice = 5.04;
+        
+//         double calc = amount * dolPrice;
+        
+//         System.out.printf("Você precisa de R$ %.2f", calc);
+
+// 		sc.close();
+		
+// 	}
+// }
+
+// 18
+
+// import java.util.Scanner;
+// public class Main {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int A = sc.nextInt();
+//         int B = sc.nextInt();
+//         int temp = 0;
+
+//         temp = A;
+
+//         A = B;
+//         B = temp;
+
+//         System.out.printf("O valor de A é %d e o valor de B é %d", A, B);
+
+// 		sc.close();
+//     }
+// }
+
+
